@@ -1,4 +1,8 @@
 .po_items_ho {
+      display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
     column-width: 15em;
     -moz-column-width: 15em;
     -webkit-column-width: 15em;
@@ -9,7 +13,7 @@
 
 .po_item {
     display: inline-block;
-    width: 100%;
+    width: 300px;
     text-align: center;
     margin: 0.5rem auto;
     position: relative;

@@ -1,164 +1,177 @@
-const logotext = "JOHN";
+const logotext = "YASMINI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Yasmini Gyawali",
+    description: "I’m Yasmini Gyawali _ UI/UX and Coding enthusiast,currently studying in Lalitpur Engineering College",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hi, I'm Yasmini",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love designing and coding",
+        second: "I design websites and code, creating engaging and user-friendly interfaces. ",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a student with high enthusiasm, who is actively involved in various activities and leadership roles. With a passion for coding and designing, I thrive on taking on new challenges and expanding my skills.",
+    your_img_url: "./images/Yasmini_Gyawali.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "More about myself",
+    aboutme: "I am a tech enthusiast with a passion for innovation and creativity. Beyond my interest in technology, I have been actively involved in various organizations where I honed my leadership skills, embraced growth, and gained invaluable learning experiences. These opportunities have shaped me into a well-rounded individual ready to take on new challenges.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Mentorship Strategic Support Volunteer in WLiT",
+        date: "Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Fellowship at WLiT Nepal",
+        date: "2022/23",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Campus Director at Locus",
+        date: "2022",
+    },
+    {
+        jobtitle: "Core member at Initiatives for Girls in Physics and Tech",
+        date: "2022",
+    },
+    {
+        jobtitle: "Member at AIESEC Patan",
+        date: "2022",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const participate = [
+{
+    jobtitle: "Orbit Hackathon",
+    date: "2024",
+},
+{
+    jobtitle: "Github Field Day Nepal",
+    date: "2024",
+},
+{
+    jobtitle: "Grace Hopper Conference-India",
+    date: "2024",
+},
+{
+    jobtitle: "Deer Hack",
+    date: "2024",
+},
+{
+    jobtitle: "Ace Ignite Hackathon",
+    date: "2022",
+},
+{
+    jobtitle: "Harvard WECode Conference",
+    date: "2022",
+},
+{
+    jobtitle: "All Female Hackathon-Shequal",
+    date: "2022",
+},
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+// const skills = [{
+//         name: "Javascript",
+//         value: 90,
+//     },
+//     {
+//         name: "Djano",
+//         value: 85,
+//     },
+//     {
+//         name: "Javascript",
+//         value: 80,
+//     },
+//     {
+//         name: "React",
+//         value: 60,
+//     },
+//     {
+//         name: "Jquery",
+//         value: 85,
+//     },
+// ];
+
+// const services = [{
+//         title: "UI & UX Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Mobile Apps",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Wordpress Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+// ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "./images/vehicle.png",
+        description: "A Parking Management System that automates parking allocation and payments, ensuring convenience and efficient space use.",
+        link: "https://www.figma.com/design/BZUlxZkyZlzObhgrBvs5LB/Case-Study-We-Park?node-id=0-1&t=DoXdrcBxctlWi7ig-1",
     },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+ 
 ];
 
+const dataport = [{
+    img: "./images/vehicle.png",
+    description: "We Park— A parking management system with object detection with map integration.",
+    link: "https://github.com/Yashi2002/Minor-Project-BE",
+},
+{
+    img: "./images/diksya.webp",
+    description: "Dikshya — A platform for loksewa aspirants where learners can take subscription to get their study materials.",
+    link: "https://github.com/Yashi2002/Avengers",
+},
+{
+    img: "./images/notes.png",
+    description: "Notes Uploader— A platform for students where you can read and upload notes.",
+    link: "https://github.com/Yashi2002/Notes-Uploader",
+},
+{
+    img: "./images/reactm.jpg",
+    description: "Mini React Projects- A project done to enhance the frontend skills.",
+    link: "https://github.com/Yashi2002/React-Projects",
+},
+
+];
+
+const ongoing = [{
+    img: "./images/sign.png",
+    description: "Sign Language Recognition System - An ongoing project to translate gestures into text or speech, promoting accessibility and inclusivity.",
+    link: "#",
+},
+
+];
+
+
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "gyawaliyasmini246@gmail.com",
+    YOUR_FONE: "9863480792",
+    // description: "Let's keep in touch.",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Yashi2002",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/yasmini-gyawali-3b4a7b219/",
+    twitter: "https://twitter.com/Yasmini683030",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
+    dataport,
+    ongoing,
     worktimeline,
-    skills,
-    services,
+    participate,
+    // skills,
+    // services,
     introdata,
     contactConfig,
     socialprofils,
