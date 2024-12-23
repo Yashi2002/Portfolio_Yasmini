@@ -111,6 +111,13 @@ const dataportfolio = [{
         img: "./images/vehicle.png",
         description: "A Parking Management System that automates parking allocation and payments, ensuring convenience and efficient space use.",
         link: "https://www.figma.com/design/BZUlxZkyZlzObhgrBvs5LB/Case-Study-We-Park?node-id=0-1&t=DoXdrcBxctlWi7ig-1",
+        link1: "https://www.figma.com/design/1gW7390VRVd1wdkTOQBC1u/We-Park?t=F7bP2MQ9JLaUn9oy-1"
+    },
+    {
+        img: "./images/mind.png",
+        description: "Mind Bloom- Nurture your well-being with personalized tools and resources to help you bloom into your best self.",
+        link: "https://dribbble.com/shots/25369273-MindBloom",
+        link1: "https://www.figma.com/design/2v397pJlDU9EltLCjkQlGx/Untitled?node-id=0-1&t=F7bP2MQ9JLaUn9oy-1",
     },
  
 ];
